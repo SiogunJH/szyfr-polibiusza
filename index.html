@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szyfr Polibiusza - Hojda</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div id="left-side">
+        <div>
+            <textarea name="before-encryption" id="before-encryption"></textarea>
+        </div>
+
+        <div id="button-box">
+            <button onclick="encrypt()">ZASZYFRUJ</button>
+            <button onclick="decrypt()">ODSZYFRUJ</button>
+        </div>
+
+        <div>
+            <textarea name="after-encryption" id="after-encryption" disabled></textarea>
+        </div>
+    </div>
+    <div id="right-side">
+        <h1>USTAWIENIA</h1>
+        <div>
+            <label for="key-setting">Klucz:</label>
+            <input type="text" name="key-setting" id="key-setting" value="" disabled>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+
+    display: flex;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#left-side {
+    background-color: bisque;
+    width: 70%;
+    height: 100%;
+}
+
+#left-side div {
+    border: solid 5px rgb(219, 171, 113);
+    border-radius: 10px;
+
+    width: auto;
+    height: 30%;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+#right-side {
+    background-color: burlywood;
+
+    width: 30%;
+    height: 100%;
+
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+
+    box-sizing: border-box
+}
+
+#button-box {
+    display: flex;
+}
+
+button {
+    width: 50%;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
