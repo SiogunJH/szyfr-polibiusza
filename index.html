@@ -26,9 +26,10 @@
     </div>
     <div id="right-side">
         <h1>USTAWIENIA</h1>
-        <div>
+        <div class="setting-box">
             <label for="key-setting">Klucz:</label>
-            <input type="text" name="key-setting" id="key-setting" value="" disabled>
+            <textarea name="key-setting" id="key-setting" cols="35" rows="1"></textarea>
+            <button onclick="generateKey()">Random</button>
         </div>
     </div>
 </body>

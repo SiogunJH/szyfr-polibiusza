@@ -41,7 +41,7 @@ h1 {
     text-align: center;
 }
 
-textarea {
+#left-side textarea {
     height: 100%;
     width: 100%;
 
@@ -52,8 +52,13 @@ textarea {
     display: flex;
 }
 
-button {
+#button-box button {
     width: 50%;
     font-size: 50px;
+}
+
+button {
     font-family: 'Courier New', Courier, monospace;
 }
+
+#setting-box {}
